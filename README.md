@@ -40,16 +40,16 @@ sudo docker run --rm -p 8887:8887 -v /workspace/template-jetbrains-pycharm/.jetb
 sudo docker run --rm -p 8887:8887 -v /workspace/my-jetbrains-repository/.jetbrains:/home/projector-user 
 ```
 
-### Community Edition & Ultimate Edition
+### Community Edition & Professional Edition
 
-By default the template is configured for the community edition. If you have licenses for the ultimate edition then adjust the [`.gitpod.yml`](./.gitpod.yml) as required:
+By default the template is configured for the community edition. If you have licenses for the professional edition then adjust the [`.gitpod.yml`](./.gitpod.yml) as required:
 
 ```yml
 # Community Edition
 # sudo docker run --rm -p 8887:8887 -it registry.jetbrains.team/p/prj/containers/projector-pycharm-c
 
 # Ultimate Edition
-sudo docker run --rm -p 8887:8887 -it registry.jetbrains.team/p/prj/containers/projector-pycharm-u
+sudo docker run --rm -p 8887:8887 -it registry.jetbrains.team/p/prj/containers/projector-pycharm-p
 ```
 
 
