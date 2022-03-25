@@ -6,7 +6,7 @@ github:
 image: 
   file: .gitpod.Dockerfile
 tasks:
-  - init: ${GITPOD_REPO_ROOT}/utils/init-script.sh
+  - init: ${GITPOD_REPO_ROOT}/init-script.sh
 
 vscode:
   extensions:
