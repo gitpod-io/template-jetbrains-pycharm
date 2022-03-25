@@ -1,5 +1,20 @@
-image:
+github:
+  prebuilds:
+    pullRequestsFromForks: true
+    addComment: true
+
+image: 
   file: .gitpod.Dockerfile
+tasks:
+  - init: ${GITPOD_REPO_ROOT}/utils/init-script.sh
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
 
 tasks:
   - init: |
