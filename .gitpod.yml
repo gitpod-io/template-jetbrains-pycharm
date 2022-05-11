@@ -1,3 +1,21 @@
+github:
+  prebuilds:
+    pullRequestsFromForks: true
+    addComment: true
+
+image: 
+  file: .gitpod.Dockerfile
+tasks:
+  - init: ${GITPOD_REPO_ROOT}/init-script.sh
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+
 tasks:
   - init: |
       sudo docker pull registry.jetbrains.team/p/prj/containers/projector-pycharm-c
